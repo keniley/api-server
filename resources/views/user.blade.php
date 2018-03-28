@@ -13,7 +13,7 @@
       </table>
       <div class="col-md-6 col-sm-12">
         <form action="/user" method="post">
-          @csrf
+          {{ csrf_field() }}
 
           <div class="col-md-6 col-sm-12">
             <div class="form-group">
