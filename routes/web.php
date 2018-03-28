@@ -10,6 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/','Web\HomeController@index');
-Route::get('/user','Web\UserController@list')->name('usersList');
-Route::post('/user','Web\UserController@create');
+Route::get('/','HomeController@index');
+Route::get('/user','UserController@list')->name('usersList');
+Route::post('/user','UserController@create');
